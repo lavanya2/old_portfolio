@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MixItUp Text</title>
+		<link rel="stylesheet" media="screen" href="css/mystyle.css">
+		<link rel="stylesheet" media="screen" href="css/bootstrap.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/jquery.mixitup.min.js"></script>
+		<style>
+			.mix {
+				display:none;
+			}
+		</style>
+		<script>
+			$(document).on('click', function() {
+				$('#container').mixItUp();
+			})
+		</script>
+	</head>
+
+	<body>
+
+		<div class="container">
+            	<img src="panel2_banner1.png" class="center-block img-responsive portfolio_panel" alt="websites_banner">
+        </div>
+
+        <?php 
+        	include ("header.php");
+  		?> 
+
+		<ul>
+			<li><a href="#" class="btn btn-default filter" data-filter="all">All</a></li>
+			<li><a href="#" class="btn btn-default filter" data-filter=".category-1">Category 1</a></li>
+			<li><a href="#" class="btn btn-default filter" data-filter=".category-2">Category 2</a></li>
+		</ul>
+
+		<div id="container">
+			<div class="mix category-1">
+				<img src= "image/spork.png" alt="Spork Image" class="square">
+			</div>
+			<div class="mix category-2">
+				<img src= "image/treblesinger.png" alt="Spork Image" class="square">
+			</div>
+			<div class="mix category-1">
+				<img src= "image/webdsc.png" alt="Spork Image" class="square">
+			</div>
+
+		</div>
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/*Index*/
+
+
+.initials_small {
+	width:225px;
+	height:250px;
+    size: 150%;
+    position:absolute;
+    margin-top:-15%;
+    margin-left: 5%;
+    }
+
+.info{
+	font-family: 'Josefin Sans', sans-serif;
+    color: #2B3F45;
+    font-size: 150%;
+    position: absolute; 
+    top: 15%;
+    left: 41%;
+}
+
+.line{ 
+	color: white;
+	size:6;
+	width: 1000px;
+	position: fixed;
+	top:25%;
+	left: 10%;
+}
+
+.line_small {
+	color: white;
+	size:6;
+	width: 1000px;
+	position: absolute;
+	margin-top:3%;
+	margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.main_panels {
+	margin-left: auto;
+	margin-right:auto;
+		}
+
+
+.panel_size {
+	height: 400px;
+	width: 125px;
+	border: 1px solid lightgrey;
+        border-radius: 0px !important;
+	opacity: 0.7;
+	}
+	
+.panel_size:hover{
+	opacity:1.0;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+	}
+	
+.margin {
+	margin-top: 7%;
+    margin-left: 15% !important;
+    margin-right: 7% !important;
+	}
+
+
+/*Index End*/	

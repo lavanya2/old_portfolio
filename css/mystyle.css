@@ -1,0 +1,490 @@
+
+/*Index*/
+
+body {
+	background-image: url('7bg.gif');
+}
+
+.container {
+    max-width: 60%;
+    min-width:60%;
+}
+
+.initials {
+	margin:auto 0px;
+	text-align: center;
+	opacity: 0.8;
+	margin-top: -2%;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center
+}
+
+.info{
+	font-family: 'Josefin Sans', sans-serif;
+    color: #2B3F45;
+    text-align:center;
+}
+
+.index_color {
+	color: #c0392b;
+}
+
+.index_info {
+	margin-bottom: 5%;
+}
+
+.panel_size {
+	border: 1px solid lightgrey;
+	opacity: 0.7;
+}
+	
+.panel_size:hover span.text-content{
+	opacity:1.0;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+}
+
+.label_websites>h2 {
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: underline;
+}
+
+.label_websites>h4 {
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+}
+
+.website_link:hover {
+	text-decoration: none;
+}
+	
+.panel_size:hover ~ .label_websites {
+	color:#f1c40f;
+	-o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+}
+	
+.label_about>h2 {
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: underline;
+
+}
+
+.label_about>h4 {
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+
+}
+
+.about_link:hover {
+	text-decoration: none;
+}
+	
+.panel_size:hover ~ .label_about {
+	color:#7ba0e1;
+	-o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+}
+	
+.label_contact>h2{
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: underline;
+
+}
+
+.label_contact>h4{
+ 	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+
+}
+
+.contact_link:hover {
+	text-decoration: none;
+}
+
+	
+.panel_size:hover ~ .label_contact {
+	color:#7cb389;
+	-o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+}
+
+
+/*End of Index*/
+
+
+
+
+
+
+/*Navigation*/
+
+.initials_small {
+	width:170px;
+	height:190px;
+    size: 150%;
+   }
+
+
+
+/*End of Navigation*/
+
+
+
+
+
+
+
+/*Illustrations*/
+
+.rounded {
+	width:200px;
+	height:200px;
+	opacity:0.7;
+	border:2px solid #6d6578;
+}
+	
+.rounded:hover{
+opacity:1.0;
+-o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+}
+
+/*End of Illustrations*/
+
+
+
+
+
+
+
+/*Websites and Projects*/
+
+@media screen and (max-width:500px) {
+	.portfolio_panel {
+		visibility: hidden;
+	}
+}
+
+.square {
+	width: 250px !important;
+	height:250px !important;
+	opacity: 0.7;
+	border:4px solid white;
+
+}
+
+.portfolio_title {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 25%;
+}
+
+	
+.square:hover {
+	opacity:1.0;
+		-o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        /* ...and now for the proper property */
+        transition:.5s;
+}
+
+.portfolio_buttons {
+	margin-top: 2%;
+	color: #0c1639 !important;
+	background-color: white;
+	font-size: 150% !important;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.portfolio_content {
+	margin-top: 2%;
+
+}
+
+.pantryplanner_link {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*End of Websites and Projects*/
+        
+
+
+
+
+
+/*About*/
+
+@media screen and (max-width:500px) {
+	.about_panel {
+		visibility: hidden;
+	}
+}
+
+.portrait {
+	width:370px !important;
+	height: 400px;
+	margin: 0px auto;
+	
+}
+	
+.about {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+ 	color: #0c163a;
+ }
+ 
+.about_title {
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+ 
+.bold {
+	font-weight: 900;
+}
+ 
+ .ucsd {
+ 	color: white;
+ 	font-weight: 900 !important;
+ 	text-decoration: underline;
+ 	background-color:#81A9DF;
+ 	}
+ 	
+ .ucsd:hover {
+ 	color: black;
+ 	}
+
+.external_links {
+	margin-left: 22% !important;
+	margin-top: -14%;
+	}
+	
+.linkedin {
+	width: 250px;
+	height: 100px;
+	}
+
+.resume {
+	width: 250px;
+	height: 100px;
+	}
+
+.about_images {
+	width: 200px !important;
+	height:200px !important;
+	opacity: 0.7;
+	border:4px solid white;
+	margin-top: 3%;
+
+}
+
+.about_imagegroups {
+	margin-bottom: 7%;
+}
+	
+/*End of About*/
+	
+
+
+
+
+
+
+	
+/*Contact*/
+
+@media screen and (max-width:500px) {
+	.contact_panel {
+		visibility: hidden;
+	}
+}
+
+.contact_maps {
+	border: 2px solid green;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width:1000px;
+	height:300px !important;
+}
+
+.form_margin {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.buttons_position {
+	float:center;
+	text-align: center;
+}
+
+.btn_style{
+	color: #2BA166 !important;
+	background-color: white;
+	font-size: 150% !important;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn_reset_style {
+	color: #2BA166 !important;
+	background-color: white;
+	font-size: 150% !important;
+	font-weight: 700;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.section_title {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #2BA166;
+	font-weight: bold;
+}
+
+.center_things {
+	margin:auto 0px;
+	text-align: center;
+}
+
+
+.maps iframe {
+	pointer-events:none;
+}
+
+	
+/*End of Contact*/
+
+
+
+
+
+/*Footer*/	
+.name {
+	text-align: center;
+	font-size: 125%;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #8782a9;
+	}
+
+.other {
+	text-align:center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	color: #9a94c0;
+	}
+	
+/*End of Footer*/
+
+
+/*MIX IT UP CSS*/
+.mix{
+	display: none;
+}
+
+
+
+
+
+
+
+.container{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
+
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 49%;
+  overflow: hidden;
+}
+
+.container .mix{
+  text-align: left;
+  background: #03899c;
+  margin-bottom: 2%;
+  display: none;
+}
+
+
+.container .mix:after{
+  content: attr(data-myorder);
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4% 6%;
+  font-weight: 700;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 60%;
+}
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+    width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container .mix,
+  .container .gap{
+    width: 23.5%;
+  }
+}
+
+/**
+ * List Styles
+ 
+
+.container.list .mix{
+  width: 100%;
+}
+
+.container.list .mix:before{
+  padding-top: 40px;
+}*/
